@@ -4,7 +4,24 @@
 
 The purpose of these notes is to address common questions about learning GitHub Packages. The notes cover setting up GitHub Packages, configuring GitHub Actions, and automating package publishing and create a release.
 
-## **GitHub Packages**
+
+## Key process of the project:
+
+The project involves creating a basic Node.js project with version control. 
+Then it create a workflow to automate the publishing of the package to GitHub Packages using GitHub Actions.
+The workflow triggers when a new release is created on GitHub.
+
+So the whole process is: 
+
+1. Create a Node.js project.
+2. Create a workflow file which triggers when a new release is created.
+3. Setting up an configuration file for the repository
+4. a new release is created on GitHub.
+5. The workflow runs and publishes the package to GitHub Packages.
+
+So the step 2 and 5 are the key steps in the project. as we create a workflow file in step 3 and then we create a release in step 4 and the workflow runs and publishes the package to GitHub Packages.
+
+## **Reference**
 For more details, refer to the [GitHub Packages Documentation](https://docs.github.com/en/packages/quickstart#publishing-your-package).
 
 ---
